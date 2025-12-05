@@ -1,0 +1,44 @@
+```gitignore
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+env/
+venv/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+.streamlit/secrets.toml
+
+# Logs and checkpoints
+*.log
+*.out
+*.tmp
+
+# Model and data files
+data/reward_model/
+data/preferences.jsonl
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.bak
+*.swp
